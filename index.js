@@ -6,11 +6,11 @@ sideNav.style.right = "-250px";
 menuBtn.onclick = function () {
     if (sideNav.style.right == "-250px") {
         sideNav.style.right = "0";
-        menu.src = "close-window.png"
+        menu.src = "image/close-window.png"
     }
     else {
         sideNav.style.right = "-250px";
-        menu.src = "download.png"
+        menu.src = "image/download.png"
     }
 };
 // All animations will take exactly 1000ms
