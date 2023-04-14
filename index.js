@@ -20,12 +20,14 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 var aboutUs = document.getElementById("aboutUs");
+var banner = document.getElementById("banner");
 let about = document.getElementById("about");
 aboutUs.addEventListener('mouseover', function visibility() {
     about.style.visibility = 'visible';
     about.style.opacity = '1';
     about.style.left = '50%';
     about.style.transform = 'translateX(-50%)';
+    banner.style.height = "104vh"
 
 })
 aboutUs.addEventListener('mouseout', function visibilityHidden() {

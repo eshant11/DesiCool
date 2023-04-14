@@ -485,6 +485,10 @@ hr {
     color: #dd7022;
 }
 
+.fa-footer {
+    border-radius: 3px;
+}
+
 @media screen and (max-width:770px) {
 
     .footer-left,
